@@ -15,7 +15,7 @@ items.forEach(item => {
             if(checked && checked.length > 0) {
                 btnText.innerHTML = `${checked.length} selected`;
             }else{
-                btnText.innerText = "Select Language";
+                btnText.innerText = "Select pill";
             }
     });
 })
